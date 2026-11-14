@@ -19,7 +19,7 @@ Hits your local model with prefix+suffix around the cursor, streams back a compl
 ```lua
 -- lazy.nvim
 {
-  "luke/binford/geass.nvim",
+  "tseluka/geass.nvim",
   config = function()
     require("geass").setup({
       provider = "ollama",
